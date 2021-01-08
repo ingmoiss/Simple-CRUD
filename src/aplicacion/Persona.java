@@ -77,7 +77,6 @@ public class Persona extends javax.swing.JFrame {
         botonEliminar = new javax.swing.JButton();
         botonLimpiar = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
-        jRadioButton2 = new javax.swing.JRadioButton();
 
         jRadioButton1.setText("jRadioButton1");
 
@@ -187,9 +186,6 @@ public class Persona extends javax.swing.JFrame {
         });
         panel.add(botonLimpiar, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 370, 90, -1));
         panel.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 420, -1, -1));
-
-        jRadioButton2.setText("Hola");
-        panel.add(jRadioButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 20, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -379,7 +375,6 @@ public class Persona extends javax.swing.JFrame {
     private javax.swing.JLabel etiquetaNombre;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JRadioButton jRadioButton1;
-    private javax.swing.JRadioButton jRadioButton2;
     private javax.swing.JPanel panel;
     // End of variables declaration//GEN-END:variables
 }
